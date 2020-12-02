@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-mysql-backend",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "Jesse",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node src/index.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
