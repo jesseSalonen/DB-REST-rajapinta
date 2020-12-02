@@ -20,7 +20,7 @@ test.get(`${apiPath}/test`, async (ctx) => {
 
   // Put a static greeting message to the HTTP response body that will be sent to the browser
   // when a client navigates to http://hostname/api/v1/test
-  ctx.body = { greeting: 'Hello world!' };
+  ctx.body = { greeting: 'Hello world and animals!' };
 });
 
 app.use(test.routes());
